@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRIS TISSUE CULTURE | Commercial Micropropagation</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">IRIS TISSUE CULTURE</div>
+        <ul class="nav-links">
+            <li><a href="#about" data-i18n="nav_about">About Us</a></li>
+            <li><a href="#management" data-i18n="nav_management">Management</a></li>
+            <li><a href="#services" data-i18n="nav_services">Services</a></li>
+            <li><a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a></li>
+            <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+        <div class="lang-switch">
+            <button onclick="switchLanguage('en')" id="btn-en" class="active">EN</button>
+            <button onclick="switchLanguage('fa')" id="btn-fa">FA</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>IRIS TISSUE CULTURE</h1>
+            <p data-i18n="hero_subtitle">Commercial Micropropagation & Plant Tissue Culture Specialist</p>
+            <div class="hero-btns">
+                <a href="#portfolio" class="btn primary" data-i18n="btn_portfolio">View Showcase</a>
+                <a href="#contact" class="btn secondary" data-i18n="btn_contact">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stat-card">
+            <h3>20,000+</h3>
+            <p data-i18n="stat_1">Annual Tissue Culture Units</p>
+        </div>
+        <div class="stat-card">
+            <h3>Ph.D.</h3>
+            <p data-i18n="stat_2">Agricultural Biotechnology</p>
+        </div>
+        <div class="stat-card">
+            <h3>5+ Years</h3>
+            <p data-i18n="stat_3">Commercial Lab Management</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 data-i18n="about_title">About IRIS TISSUE CULTURE</h2>
+        <p data-i18n="about_text">
+            IRIS TISSUE CULTURE is a commercial plant biotechnology initiative specializing in high-efficiency micropropagation protocols for orchids, ornamental houseplants, and high-value vegetative rootstocks. We combine academic precision with large-scale industrial production.
+        </p>
+    </section>
+
+    <!-- Management / Profile Section -->
+    <section id="management" class="management">
+        <h2 data-i18n="mgmt_title">Leadership & Founder</h2>
+        <div class="profile-card">
+            <div class="profile-img">
+                <img src="images/zahra.jpg" alt="Dr. Zahra Dehghanian">
+            </div>
+            <div class="profile-info">
+                <h3>Dr. Zahra Dehghanian</h3>
+                <h4 data-i18n="mgmt_role">Founder & Head of R&D / Production</h4>
+                <p data-i18n="mgmt_bio">
+                    Ph.D. in Agricultural Biotechnology with extensive expertise in commercial tissue culture, plant breeding, and laboratory management. Successfully launched and managed commercial micropropagation facilities producing over 20,000 tissue-cultured plants annually.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 data-i18n="services_title">Core Expertise</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <i class="fa-solid fa-vial-circle-check"></i>
+                <h3 data-i18n="srv_1_title">Protocol Optimization</h3>
+                <p data-i18n="srv_1_desc">Developing high-yield tissue culture protocols for orchids and rare ornamental species.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-flask-vial"></i>
+                <h3 data-i18n="srv_2_title">Commercial Lab Management</h3>
+                <p data-i18n="srv_2_desc">Full management of cleanrooms, contamination control, media preparation, and production scaling.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-seedling"></i>
+                <h3 data-i18n="srv_3_title">Stage 3 & 4 Acclimatization</h3>
+                <p data-i18n="srv_3_desc">High-survival transition techniques for acclimatizing in-vitro plantlets into greenhouse conditions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Showcase -->
+    <section id="portfolio" class="portfolio">
+        <h2 data-i18n="portfolio_title">Production Showcase</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/orchid-invitro.jpg" alt="Orchid In-Vitro">
+                <div class="overlay"><span data-i18n="img_1">Orchid Micropropagation</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/growth-chamber.jpg" alt="Lab Setup">
+                <div class="overlay"><span data-i18n="img_2">Cleanroom & Culture Room</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/acclimatization.jpg" alt="Acclimatized Plants">
+                <div class="overlay"><span data-i18n="img_3">Ex-Vitro Acclimatization</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 data-i18n="contact_title">Contact Us</h2>
+        <p data-i18n="contact_text">Open for technical collaboration, consultancy, and business opportunities.</p>
+        <div class="contact-links">
+            <a href="mailto:zdehganian@yahoo.com"><i class="fa-solid fa-envelope"></i> Email Us</a>
+            <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 IRIS TISSUE CULTURE. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
